@@ -50,3 +50,4 @@ memory_get_usage(false)         memory_get_usage(true)          memory_get_peak_
 Detailed information about references:
 - https://rmcreative.ru/blog/post/utechki-pamjati-v-php
 - https://www.php.net/manual/ru/features.gc.php
+- need to test: https://www.php.net/manual/ru/class.weakmap.php
