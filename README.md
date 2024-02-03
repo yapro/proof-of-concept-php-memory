@@ -9,7 +9,7 @@ See below for details.
 
 If you run the script:
 ```shell
-docker run -it --rm -v "$PWD":/app -w /app php:7.4-cli php index.php
+docker run -it --rm -v "$PWD":/app -w /app php:7.4-cli php -d memory_limit=-1 index.php
 ```
 
 You got the result:
